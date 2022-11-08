@@ -7,18 +7,11 @@ function showAboutMe(){
 	<button class="nav-link  btn btn primary" aria-current="page" id="btnNav" onclick="apiCoins()">Home</button>
 	</li>
 	<li class="nav-item">
-		<button class="nav-link  btn btn primary" aria-current="page" onclick="showLiveReports()">Live
-		Reports</button>
-	</li>
-	<li class="nav-item">
 		<button class="nav-link active btn btn primary" aria-current="page" onclick="showAboutMe()">About</button>
 	</li>`
 
     const main = document.getElementById("mainCrypto");
-    main.innerHTML = ``;
-    
-    const divReports = document.getElementById("chartContainer");
-    divReports.innerHTML = ``; 
+    main.innerHTML = ``; 
     
     let div = document.getElementById("divAbout")
 
