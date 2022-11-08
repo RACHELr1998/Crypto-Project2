@@ -156,9 +156,6 @@ function searchCrypto() {
         const div = document.getElementById("divAbout");
         div.innerHTML = ``;
 
-        const divReports = document.getElementById("chartContainer");
-        divReports.innerHTML = ``; 
-
         showCoin(coin);
 
     }else{
